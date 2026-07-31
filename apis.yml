@@ -1,7 +1,25 @@
 aid: open-bionics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-bionics.png
 name: Open Bionics
-description: Open Bionics is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Open Bionics is a Bristol, UK-based medical technology company that designs
+  and manufactures advanced multi-grip bionic arms for children and adults with upper-limb
+  differences. Its Hero product family (Hero ARM, Hero PRO, Hero RGD, Hero FLEX and
+  Hero GAUNTLET) pairs 3D-printed, lightweight myoelectric prosthetic hands with an
+  ecosystem of MyoPods wireless electrodes and the Sidekick companion app, delivered
+  through a network of specialist prosthetists and clinics in the US and UK. Added
+  to the API Evangelist network as a Techstars portfolio company; enrichment probing
+  found no public developer API, SDK, developer portal, or event surface.
 url: https://raw.githubusercontent.com/api-evangelist/open-bionics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Medical Devices
+- Health Technology
+- Prosthetics
+- Bionics
+- Robotics
+- Assistive Technology
+- Wearables
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://openbionics.com/
+- type: PrivacyPolicy
+  url: https://openbionics.com/privacy-policy/
+- type: TermsOfService
+  url: https://openbionics.com/terms-conditions/
+- type: Support
+  url: https://openbionics.com/contact/
+- type: DomainSecurity
+  url: security/open-bionics-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
